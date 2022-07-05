@@ -6,11 +6,15 @@ h1 {
     font-size: 60px;
 }
 
+p {
+    margin-bottom: 50px;
+}
+
 .skip-color {
     color: #13B6FC;
 }
 
-.order-food {
+.flex {
     display: flex;
 }
 
@@ -23,11 +27,16 @@ h1 {
     width: 80%;
 }
 
-.order-btn {
+.btn {
     text-decoration: none;
     background-image: linear-gradient(#13B6FC, rgb(22, 16, 202));
     padding: 15px 40px;
     border-radius: 15px;
     color: white;
     font-weight: 700;
+}
+
+.bg-shape {
+    background-image: url(images/my-images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
 }
